@@ -1,8 +1,19 @@
-// import functions and grab DOM elements
+const askButton = document.getElementById('ask');
+const resetButton = document.getElementById('reset');
 
-// let state
+const questionContainer = document.getElementById('question-container');
+const fortuneContainer = document.getElementById('fortune-container');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+const fortuneOutput = document.getElementById('fortune-output');
+
+askButton.addEventListener('click', () => {
+    questionContainer.classList.toggle('hide');
+    fortuneContainer.classList.toggle('hide');
+    const rando = Math.floor(Math.random() * answers.length);
+    fortuneOutput.textContent = answers[rando];
+});
+
+resetButton.addEventListener('click', () => {
+    questionContainer.classList.toggle('hide');
+    fortuneContainer.classList.toggle('hide');
+});

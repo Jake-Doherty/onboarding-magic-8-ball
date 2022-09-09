@@ -23,16 +23,18 @@
         </header>
 
         <main>
-            <div id="eightball-container">
-                <label for="fortune-questions">
+            <div id="question-container">
+                <label>
                     <input id="fortune-input" type="text" placeholder="Ask here to..." />
-                    <button type="submit">See Your Future</button>
+                    <button id="ask" type="submit">See Your Future</button>
                 </label>
-                <img src="assets\8-ball.png" alt="8-ball" />
+                <div>
+                    <img src="assets\8-ball.png" alt="8-ball" />
+                </div>
             </div>
             <div id="fortune-container" class="hide">
-                <p id="fortune-output" class="answer"></p>
-                <button type="submit">Ask again</button>
+                <p id="fortune-output" class="fortune-answer"></p>
+                <button id="reset" type="submit">Ask again</button>
             </div>
         </main>
 

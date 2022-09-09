@@ -100,13 +100,13 @@ ul {
     list-style: none;
 }
 
-#eightball-container {
+#question-container {
     margin: 10px;
     display: flex;
     flex-direction: column;
 }
 
-#eightball-container img {
+#question-container img {
     width: 300px;
     border-radius: 50%;
 }
