@@ -23,3 +23,8 @@
     -   hide magic 8 ball answer
     -   hide reset button
     -   show 8-ball image, fortune input, and ask button
+
+## STATE VARIABLES
+
+-   selected fortune
+-   add / remove .hide from div containers on button click
